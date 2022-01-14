@@ -1,0 +1,23 @@
+.top{
+    display:flex;
+}
+
+.quadrantOne{
+    display:flex;
+    margin-right: auto;
+}
+.quadrantTwo{
+    display: flex;
+    margin-left: auto;
+    
+}
+
+
+.list{
+    list-style: none;
+}
+
+.quadrantThree{
+    display:flex;
+    flex-flow: column;
+}
