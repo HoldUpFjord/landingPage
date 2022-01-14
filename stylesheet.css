@@ -1,5 +1,13 @@
 .top{
     display:flex;
+    flex-flow: row wrap;
+}
+
+.header{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    max-width: 1800px;
 }
 
 .quadrantOne{
@@ -19,5 +27,5 @@
 
 .quadrantThree{
     display:flex;
-    flex-flow: column;
+    flex-flow: column wrap;
 }
