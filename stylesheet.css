@@ -50,3 +50,13 @@
     object-fit: contain;
 
 }
+
+.upper{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
