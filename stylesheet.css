@@ -60,3 +60,18 @@
     display: flex;
     justify-content: center;
 }
+
+.leftOneBox{
+    display:flex;
+    flex-flow:column wrap;
+}
+.boxDimension{
+    width: 100px;
+    height: 100px;
+    border: blue;
+    border-style: solid;
+    border-top-width: 3px;
+    border-left-width:3px;
+    border-right-width:3px ;
+    border-bottom-style:3px;
+}
