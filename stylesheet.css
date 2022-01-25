@@ -21,12 +21,15 @@
     display: flex;
     margin-left: auto;
     padding-right: 20px;
+    font-size: smaller;
     
 }
 
 
 .quadrantThree{
     max-width:400px ;
+    margin-bottom:60px;
+    margin-left:100px;
     display:flex;
     flex-flow: column wrap;
 }
@@ -34,6 +37,7 @@
 .button{
     color: white;
     background-color: turquoise;
+    width: fit-content;
 }
 
 .quadrantFour{
@@ -101,4 +105,24 @@
     border-left-width:3px;
     border-right-width:3px ;
     border-bottom-style:3px;
+}
+
+.quote{
+    font-style: italic;
+    width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.quoteSource{
+    display:flex;
+    justify-content: end;    
+
+}
+
+.bottom{
+    background-color: rgb(34, 105, 172);
+    color:cornsilk
 }
