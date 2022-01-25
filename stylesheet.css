@@ -11,11 +11,14 @@
     flex-flow: row;
     width: 100%;
     max-width: 1800px;
+
 }
 
 .quadrantOne{
     display:flex;
     margin-right: auto;
+    margin-left:100px;
+    font-size: smaller;
 }
 .quadrantTwo{
     display: flex;
@@ -27,11 +30,17 @@
 
 
 .quadrantThree{
-    max-width:400px ;
     margin-bottom:60px;
     margin-left:100px;
     display:flex;
     flex-flow: column wrap;
+}
+
+.awesome{
+    display: flex;
+    flex-flow: row wrap;
+    width: 300px;
+    margin-bottom: 0;
 }
 
 .button{
@@ -109,7 +118,8 @@
 
 .quote{
     font-style: italic;
-    width: 1200px;
+    padding-left: 100px;
+    padding-right:100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
