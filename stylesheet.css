@@ -134,5 +134,18 @@
 
 .bottom{
     background-color: rgb(34, 105, 172);
-    color:cornsilk
+    color:cornsilk;
+    padding-bottom:80px;
+    padding-left: 200px;
+    padding-right:200px;
+    margin-left: auto;
+    margin-right:auto;
+    width: fit-content;
+    display: flex;
+    flex-flow:column;
+}
+
+.buttonRow{
+    display:flex;
+    flex-flow:row;
 }
